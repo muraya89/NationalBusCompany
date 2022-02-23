@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	font-size: 16px;
+	font color: #000000;
+	background-image: url(Images/beck.jpg);
+	background-size: contain;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+.navbar-brand img
+{
+	height: 20px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #F0F8FF!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+#Home
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	color: #ffffff;
+}
+h1
+{
+	color: #FF0040;
+}
+h3
+{
+	color: #FF0040;
+}
+#nbc h2
+{
+	color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+}
+#slide
+{
+	height: 60px!important;
+}
+#Home p
+{
+	border: solid;
+	border-radius: 20px;
+	border-color: #ffffff;
+}
+.input
+{
+	border-radius: 20px;
+	width: 50%;
+	border: 1px solid #999;
+	outline: none;
+}
+#Pricelist
+{
+	padding-top: 70px;
+}
+#Pricelist h1
+{
+	color: #ffffff;
+	padding-left: 20px;
+}
+.table
+{
+	padding: 20px;
+}
+#offer p
+{
+	text-align: center;
+	border: solid;
+	font-size: 20px;
+	border-radius: 20px;
+	border-color: #ffffff;
+	height: 100px;
+	color: #21afde;
+}
+#slider
+{
+	width: 100%;
+}
+#About
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	color: #ffffff;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+#news h1
+{
+	padding-bottom: 5px;
+	color: #21afde;
+}
+#news h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+#news
+{
+	margin-bottom: 80px;
+}
+#news p
+{
+	font-size: 16px;
+	margin-top: 20px;
+	color: #ffffff;
+}
+#news h3
+{color: #ffffff;}
+.news .col-md-4:hover
+{
+	background: #21afde;
+	cursor: pointer;
+	transition: 0.7s;
+}
+#Contact
+{
+	padding-top: 70px;
+	padding-bottom: 30px;
+	color: #ffffff;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+}
+.send-btn
+{
+	background-color: #21afde;
+	border-radius: 20px;
+	width: 200px;
+	align-items: center;
+}
+.sendbtn
+{
+	background-color: #21afde;
+	border-radius: 20px;
+	align-items: center;
+}
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+#footer
+{
+	background-color: #333;
+	color: #fff;
+	padding: 12px
+}
+#slider
+{
+	height: 200px;
+}
